@@ -1,0 +1,5 @@
+{
+    "name": "Initialise Python AI Environment",
+    "desc": "Installs python (latest version).\nInstalls AI/ML related python modules.",
+    "path": "Linux_Init_Env_Python_AI.sh"
+}

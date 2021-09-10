@@ -1,0 +1,43 @@
+{
+    "name": "EasyInit",
+    "repoLink": "https://github.com/KausikN/EasyInit",
+    "localPath": "E:/Github Codes and Projects/Projects/EasyInit",
+    "modules": {
+        "app.py": {
+            "name": "app",
+            "type": "local",
+            "link": "https://github.com/KausikN/EasyInit/blob/master/app.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "subDir": "",
+            "dependencies": [
+                "os.py",
+                "streamlit.py",
+                "json.py"
+            ]
+        },
+        "json.py": {
+            "name": "json",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "subDir": "",
+            "dependencies": []
+        },
+        "os.py": {
+            "name": "os",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "subDir": "",
+            "dependencies": []
+        },
+        "streamlit.py": {
+            "name": "streamlit",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "subDir": "",
+            "dependencies": []
+        }
+    }
+}

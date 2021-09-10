@@ -1,0 +1,5 @@
+{
+    "name": "Initialise Python Basic Environment",
+    "desc": "Installs python (latest version).",
+    "path": "Linux_Init_Env_Python_Basic.sh"
+}

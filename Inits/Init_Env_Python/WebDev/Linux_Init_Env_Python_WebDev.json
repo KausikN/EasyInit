@@ -1,0 +1,5 @@
+{
+    "name": "Initialise Python WebDev Environment",
+    "desc": "Installs python (latest version).\nInstalls Web Development related python modules.",
+    "path": "Linux_Init_Env_Python_WebDev.sh"
+}
