@@ -64,15 +64,15 @@ def UI_DisplayInit(initData):
     st.markdown("### " + initData['name'])
 
     size = (1, 4)
-    col1, col2 = st.beta_columns(size)
+    col1, col2 = st.columns(size)
     col1.markdown("Desc:")
     col2.markdown("" + initData['desc'] + "")
 
-    col1, col2 = st.beta_columns(size)
+    col1, col2 = st.columns(size)
     col1.markdown("File:")
     col2.markdown("" + initData['path'] + "")
 
-    col1, col2 = st.beta_columns(size)
+    col1, col2 = st.columns(size)
     col1.markdown("Code:")
     codeFilePath = initData['fullPath']
     code = open(codeFilePath, 'r').read()
