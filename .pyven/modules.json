@@ -15,27 +15,27 @@
                 "json.py"
             ]
         },
-        "json.py": {
-            "name": "json",
-            "type": "inbuilt",
+        "streamlit.py": {
+            "name": "streamlit",
+            "type": "missing",
             "link": "",
-            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "parentDir": "",
             "subDir": "",
             "dependencies": []
         },
         "os.py": {
             "name": "os",
-            "type": "inbuilt",
+            "type": "missing",
             "link": "",
-            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "parentDir": "",
             "subDir": "",
             "dependencies": []
         },
-        "streamlit.py": {
-            "name": "streamlit",
-            "type": "inbuilt",
+        "json.py": {
+            "name": "json",
+            "type": "missing",
             "link": "",
-            "parentDir": "E:/Github Codes and Projects/Projects/EasyInit",
+            "parentDir": "",
             "subDir": "",
             "dependencies": []
         }

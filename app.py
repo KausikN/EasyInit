@@ -45,7 +45,7 @@ INITS_DATA = []
 
 # Util Functions
 def GetNames(Data):
-    return [d['name'] for d in Data]
+    return [d["name"] for d in Data]
 
 # Main Functions
 def LoadAllInits():
@@ -55,26 +55,26 @@ def LoadAllInits():
         jsonFiles = [f for f in filenames if f.endswith(".json")]
         for filename in jsonFiles:
             jsonData = json.load(open(os.path.join(dirpath, filename), 'r'))
-            jsonData['fullPath'] = os.path.join(dirpath, jsonData['path'])
+            jsonData["fullPath"] = os.path.join(dirpath, jsonData["path"])
             INITS_DATA.append(jsonData)
 
 
 # UI Functions
 def UI_DisplayInit(initData):
-    st.markdown("### " + initData['name'])
+    st.markdown("### " + initData["name"])
 
     size = (1, 4)
     col1, col2 = st.columns(size)
     col1.markdown("Desc:")
-    col2.markdown("" + initData['desc'] + "")
+    col2.markdown("" + initData["desc"] + "")
 
     col1, col2 = st.columns(size)
     col1.markdown("File:")
-    col2.markdown("" + initData['path'] + "")
+    col2.markdown("" + initData["path"] + "")
 
     col1, col2 = st.columns(size)
     col1.markdown("Code:")
-    codeFilePath = initData['fullPath']
+    codeFilePath = initData["fullPath"]
     code = open(codeFilePath, 'r').read()
     col2.markdown("```shell\n" + code + "")
 

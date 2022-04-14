@@ -1,6 +1,6 @@
 {
     "repo_name": "EasyInit",
     "requirements": [
-        "streamlit"
+        "streamlit==1.8.0"
     ]
 }
